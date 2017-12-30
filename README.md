@@ -7,11 +7,25 @@ run the tests and build a standalone executable (SBCL).
 
 ## Usage
 
+### New Project
+
 1. Clone this repository
 2. Run (replace `my-cl-project` by the name of your new project)
 
 ```bash
 ./cl-project-template/rename.sh my-cl-project
+```
+
+### Run Tests
+
+```bash
+make check
+```
+
+### Build Executable
+
+```bash
+make
 ```
 
 ## Preferred Libraries
