@@ -8,15 +8,11 @@ run the tests and build a standalone executable (SBCL).
 ## Usage
 
 1. Clone this repository
-2. Use `sed` to replace the project name:
+2. Run (replace `my-cl-project` by the name of your new project)
 
 ```bash
-grep -rl '__project-name__' cl-project-template | xargs sed -i 's/__project-name__/PROJECT-NAME/g'
+./cl-project-template/rename.sh my-cl-project
 ```
-
-3. Rename the file **__project-name__.asd** to your real project name
-   **PROJECT-NAME.asd**
-4. Rename the project directory
 
 ## Preferred Libraries
 
